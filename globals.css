@@ -1,0 +1,62 @@
+/* Estilos globais */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1, h2, h3, .titulo {
+  font-family: 'Lobster', cursive;
+  color: #000; /* Ajuste a cor, se necessário */
+  text-align: center; /* Centraliza os títulos */
+  margin: 20px 0; /* Espaçamento entre os títulos */
+}
+
+
+body, h1, p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  list-style: none;
+  padding: 10px;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s ease;
+}
+#inicio {
+  background-color: #ffbbbb;
+}
+#sustentabilidade {
+  background-color: #a43e1f;
+}
+#nova-edicao {
+  background-color: #b03030;
+}
+#promocao {
+  background-color: #73a063;
+}
+
+body {
+  transition: transform 0.5s ease-in-out; /* Suaviza a transição ao mudar de seção */
+}
+
+section {
+  transition: opacity 0.5s ease-in-out;
+}

@@ -1,0 +1,37 @@
+.promo {
+    background-color: #ffbbbb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .promo .promo-container {
+    background-color: #ffbbbb;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .promo .whatsapp-image {
+    height: 422px;
+    left: 523px;
+    object-fit: cover;
+    position: absolute;
+    top: 33px;
+    width: 591px;
+  }
+  
+  .promo .comprou-dolly-agora {
+    color: #000000;
+    font-family: "Jockey One-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 194px;
+    width: 464px;
+  }
+  
